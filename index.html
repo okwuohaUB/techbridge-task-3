@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBridge | Bridging Learning to Real-World Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+</head>
+
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <span class="logo-text"><img src="images/logo.gif" class="logo" />
+            </div>
+
+            <!-- Pure CSS Hamburger Menu Controller -->
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="hamburger-label">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#home"><i class="bi bi-house"></i>
+                        Home</a></li>
+                <li><a href="#about"><i class="bi bi-person-check"></i> About</a></li>
+                <li><a href="#programs"><i class="bi bi-braces"></i> Programs</a></li>
+                <li><a href="#internship"><i class="bi bi-code-slash"></i> Internship</a></li>
+                <li><a href="#community"><i class="bi bi-people"></i> Community</a></li>
+                <li><a href="#contact"><i class="bi bi-person-lines-fill"></i> Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- Hero / Introduction Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>TechBridge by Baselink Services Limited</h1>
+            <p class="tagline">Bridging Learning to Real-World Experience</p>
+            <p class="intro-description">
+                We introduce emerging learners and interns to structured, practical technology solutions. <br />
+                Our platform bridges the gap between foundational knowledge and workplace execution,<br />
+                allowing you to
+                move beyond raw theory and develop hands-on tech skills confidently.
+            </p>
+            <div class="hero-cta">
+                <a href="#internship" class="btn btn-primary">Explore Internship</a>
+                <a href="#programs" class="btn btn-secondary">View Programs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Purpose / About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>What is TechBridge?</h2>
+            <p class="section-subtitle">A clear understanding of our foundational roadmap.</p>
+            <div class="about-grid">
+                <div class="about-card animate-on-hover">
+                    <img src="images/who-for.jpg" />
+                    <div class="card-body">
+                        <h3>Who It's For</h3>
+
+                        <p>Designed explicitly for entry-level tech professionals, potential interns, and emerging
+                            learners
+                            looking to cement their technical capabilities through production-grade tasks.</p>
+                    </div>
+                </div>
+                <div class="about-card animate-on-hover">
+                    <img src="images/we-offer.jpg" />
+                    <div class="card-body">
+                        <h3>What We Offer</h3>
+                        <p>Direct exposure to real-world tasks, collaborative environments, and supervised project
+                            lifecycles to turn structural learning into intuitive career growth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Programs Section -->
+    <section id="programs" class="programs-section">
+        <div class="container">
+            <h2>Current Available Programs</h2>
+            <div class="programs-grid">
+                <!-- Program 1 -->
+                <div class="program-card animate-on-hover">
+                    <div class="program-icon">📊</div>
+                    <h3>Data Analytics</h3>
+                    <p>Master the tools required to parse records, clean datasets, and extract deep organizational
+                        insights. Move beyond formulas into data-driven strategy decisions.</p>
+                    <br />
+                    <label for="modal-toggle-1" class="open-btn-1 btn-secondary btn">Learn More</label>
+                </div>
+                <!-- Program 2 -->
+                <div class="program-card animate-on-hover">
+                    <div class="program-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Learn to structure, style, and deploy highly functional and responsive interfaces. Build
+                        semantic
+                        layouts designed to accommodate modern web workflows.</p>
+                    <br />
+
+                    <label for="modal-toggle" class="open-btn btn-primary btn">Learn More</label>
+
+                </div>
+            </div>
+
+            <input type="checkbox" id="modal-toggle" class="modal-toggle">
+            <div class="modal">
+                <label for="modal-toggle" class="modal-overlay"></label>
+                <div class="modal-content">
+                    <h3>Web Development</h3>
+
+                    <div> The program introduces learners to practical website development, including areas such as:
+
+                        <ul style="padding:10px; margin-right: 30px auto">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Git/GitHub</li>
+                            <li>Building web projects<< /li>
+
+                        </ul>
+
+                    </div>
+
+                    <label for="modal-toggle" class="close-btn">✕</label>
+                </div>
+            </div>
+
+            <input type="checkbox" id="modal-toggle-1" class="modal-toggle-1">
+            <div class="modal-1">
+                <label for="modal-toggle-1" class="modal-overlay-1"></label>
+                <div class="modal-content-1">
+                    <h3>Data Analytics</h3>
+                    <div>
+                        The program introduces learners to practical data analysis, including areas such as:
+
+                        <ul style="padding:10px; margin-right: 30px auto">
+                            <li>Spreadsheet analysis</li>
+                            <li>Data cleaning</li>
+                            <li>SQL</li>
+                            <li>Data visualization</li>
+                            <li>Business-focused analysis</li>
+                        </ul>
+
+                    </div>
+
+                    <label for="modal-toggle-1" class="close-btn-1">✕</label>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Internship Section -->
+    <section id="internship" class="internship-section">
+        <div class="container internship-container">
+            <div class="internship-content">
+                <span class="badge">Core Feature</span>
+                <h2 style="">30-Day Practical Internship</h2>
+                <p>Our flagship intensive ecosystem is designed to challenge your technical boundaries through
+                    hands-on
+                    project tracks.</p>
+
+                <ul class="benefits-list">
+                    <li><strong>Project-Based Structure:</strong> Work through real tasks that emulate professional
+                        workflows, forcing you to troubleshoot logic blocks and clean code structures.</li>
+                    <li><strong>Recommendation Letter:</strong> Successful participation and solid execution during
+                        the
+                        30-day program qualifies you for an official letter of recommendation to accelerate your
+                        career
+                        applications.</li>
+                </ul>
+
+                <div style="display: flex; flex-direction: row; gap: 3; ">
+
+                    <div class="action-block">
+
+                        <label for="modal-toggle-3" class="open-btn btn-irm btn"> View Our 30 Days Task
+                            Roadmap</label>
+                    </div>
+
+
+                    &nbsp; &nbsp;
+
+                    <div class="action-block">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScoEhKAAUHw0lB2lzI5oT4x_VPQNSY2XE8Hv71q0XZ7IS_3bA/closedform"
+                            class="btn btn-cta" target="_blank" rel="noopener noreferrer">
+
+                            Apply For the TechBridge Internship Program </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Internship Roadmap Starst Her -->
+            <input type="checkbox" id="modal-toggle-3" class="modal-toggle-3">
+
+            <div class="modal-3">
+
+                <label for="modal-toggle-3" class="modal-overlay-3"></label>
+                <div class="modal-content-3"> <label for="modal-toggle-3" class="close-btn-3">✕</label>
+                    <h3>The TechBridge Internship Program Roadmap</h3> <br />
+                    <div id="accordion-container"></div>
+                </div>
+                <!-- Internship Roadmap Ends Here -->
+
+            </div>
+    </section>
+
+    <!-- Community Integration Section -->
+    <section id="community" class="community-section">
+        <div class="container text-center">
+            <h2>Join Our Growing Community</h2>
+            <p>Don't learn in isolation. Connect directly with peers, collaborate on code paths, and expand your
+                technical perspectives.</p>
+            <a href="https://chat.whatsapp.com/FqpBvYS4oaK32cXDxc8JIS" class="btn btn-whatsapp" target="_blank"
+                rel="noopener noreferrer">
+                <span>💬</span> Join TechBridge WhatsApp Community
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact & Social Directory -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <p>Have questions about applications, track requirements, or cohort dates? Reach out via our
+                    official
+                    communication channel:</p>
+                <p class="email-link">✉️ <a href="mailto:techbridgebaslink@gmail.com">techbridgebaslink@gmail.com</a>
+                </p>
+            </div>
+            <div class="contact-socials">
+                <h3>Official Channels</h3>
+                <ul class="social-links">
+                    <li><a href="https://linkedin.com/company/techbridge-services/" target="_blank"
+                            rel="noopener noreferrer">LinkedIn Profile</a>
+                    </li>
+                    <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook Page</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 TechBridge by Baselink Services Limited. All rights reserved.</p>
+            <p class="footer-tagline">Bridging Learning to Real-World Experience</p>
+        </div>
+    </footer>
+    <script>
+        fetch('accordion.html')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Could not load accordion.html');
+                }
+                return response.text();
+            })
+            .then(html => {
+                document.getElementById('accordion-container').innerHTML = html;
+            })
+            .catch(error => console.error('Error:', error));
+    </script>
+</body>
+
+</html>

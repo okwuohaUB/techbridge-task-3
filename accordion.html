@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBridge | Bridging Learning to Real-World Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <style>
+        .tab-accordion {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .tab-accordion input[type="radio"] {
+            display: none;
+
+        }
+
+        .tab-accordion label {
+            order: 1;
+            padding: 12px 20px;
+            cursor: pointer;
+            margin-right: 4px;
+            border-top-right-radius: 7px;
+            border-top-left-radius: 7px;
+
+        }
+
+
+        .tab-accordion .panel {
+            order: 2;
+            width: 100%;
+            display: none;
+            padding: 20px;
+            border-top: 1px solid #ddd;
+
+        }
+
+        .tab-accordion input[type="radio"]:checked+label {
+            background: #eee;
+            font-weight: bold;
+        }
+
+        .tab-accordion input[type="radio"]:checked+label+.panel {
+            display: block;
+        }
+
+        .tab-accordion label:last-of-type {
+            margin-right: 0;
+        }
+
+        /* Switch to stacked accordion on mobile */
+        @media (max-width: 600px) {
+
+            .tab-accordion label,
+            .tab-accordion .panel {
+                order: initial;
+                width: 100%;
+                margin-right: 0;
+                /* Resets horizontal gap on mobile */
+            }
+
+            .tab-accordion label {
+                margin-top: 6px;
+                /*border-top: solid 1px #eee;*/
+                /* Optional: adds a vertical gap between stacked accordion headers */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div> </div>
+
+    <div class="tab-accordion">
+        <input type="radio" name="tabs" id="tab1" checked>
+        <label for="tab1">Task 1</label>
+        <div class="panel">
+            <div style="display: flex; gap: 20px;">
+                <div><img src="images/icons/ratusratus.webp" width="150px"></div>
+                <div>
+                    <p>
+                        <b>Build the TechBridge Homepage</b><br /><br />
+                        <b>Day: 1</b> - Beginner <br />
+                        <span class="real-deal">
+                            Create the first version of the TechBridge website using HTML and CSS.
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <input type="radio" name="tabs" id="tab2">
+        <label for="tab2">Task 2</label>
+        <div class="panel">
+            <div style="display: flex; gap: 20px;">
+                <div><img src="images/icons/doggy.webp" width="150px"></div>
+                <div>
+                    <p><br />
+                        <b> Build the TechBridge Programs Experience</b><br /><br />
+                        <b> Day: 4 </b> - Beginner <br />
+                        <span class="real-deal">
+                            Create a Programs experience that presents TechBridge's available learning programs.
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <input type="radio" name="tabs" id="tab3">
+        <label for="tab3">Task 3 </label>
+        <div class="panel">
+            <div style="display: flex; gap: 20px;">
+                <div><img src="images/icons/pigli.webp" width="150px"></div>
+                <div>
+                    <p><br />
+
+                        <b>Build the Internship Tasks Experience </b><br /><br />
+                        <b> Day: 8 </b> - Beginner <br />
+                        <span class="real-deal">Create an interface that presents the TechBridge internship tasks and
+                            helps users
+                            understand the
+                            internship journey.
+                        </span>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <input type="radio" name="tabs" id="tab4">
+        <label for="tab4">Task 4 </label>
+        <div class="panel">
+            <div style="display: flex; gap: 20px;">
+                <div><img src="images/icons/octu.webp" width="150px"></div>
+                <div>
+                    <p><br />
+                        <b>Build an Interactive Task Tracker</b><br /><br />
+                        <b> Day: 11 </b> - Intermediate <br />
+                        <span class="real-deal">
+                            Use JavaScript to make the internship task experience interactive and allow progress to be
+                            tracked.
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <input type="radio" name="tabs" id="tab5">
+        <label for="tab5">Task 5 </label>
+        <div class="panel">
+            <div style="display: flex; gap: 20px;">
+                <div><img src="images/icons/crowly.webp" width="150px"></div>
+                <div>
+                    <p><br />
+                        <b>Build the Intern Registration Experience </b><br /><br />
+                        <b> Day: 15 </b> - Intermediate <br />
+                        <span class="real-deal">
+
+                            Create a professional registration/onboarding interface for TechBridge interns.
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <input type="radio" name="tabs" id="tab6">
+        <label for="tab6">Task 6 </label>
+        <div class="panel">
+            <div style="display: flex; gap: 20px;">
+                <div><img src="images/icons/eliphanta.webp" width="150px"></div>
+                <div>
+                    <p><br />
+                        <b>Build the Task Submission System</b><br /><br />
+                        <b> Day: 19 </b> - Intermediate → Advanced <br />
+                        <span class="real-deal">
+                            Create an interface through which interns can prepare and submit their task work.
+                        </span>
+                    </p>
+                    <p><br /></p>
+                </div>
+            </div>
+        </div>
+
+
+        <input type="radio" name="tabs" id="tab7">
+        <label for="tab7">Task 7 </label>
+        <div class="panel">
+            <div style="display: flex; gap: 20px;">
+                <div><img src="images/icons/bdol.webp" width="150px"></div>
+                <div>
+                    <p><br />
+                        <b>Build the Intern Dashboard </b><br /><br />
+                        <b> Day: 22 </b>- Intermediate → Advanced Beginner <br />
+                        <span class="real-deal">
+                            Create a dashboard where an intern can view their profile, progress, tasks, and submissions.
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <input type="radio" name="tabs" id="tab8">
+        <label for="tab8">Task 8 </label>
+        <div class="panel">
+            <div style="display: flex; gap: 20px;">
+                <div><img src="images/icons/chimpi.gif" width="150px"></div>
+                <div>
+                    <p><br />
+                        <b>Build the Complete TechBridge Internship Platform </b><br /><br />
+                        <b>Day: 26 </b> - Intermediate → Advanced Beginner <br />
+                        <span class="real-deal">
+                            Combine the different components created during the internship into a complete TechBridge
+                            platform.
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
